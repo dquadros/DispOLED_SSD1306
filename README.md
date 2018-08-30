@@ -4,7 +4,7 @@ Experiências com display OLED monocromático 128x64 com controlador SSD1306
 Arduino
 
 * DispOLED_I2C: comunicação I2C
-* DispOLED_SPI3: comunicação "3wire SPI" (não testada)
+* DispOLED_SPI3: comunicação "3wire SPI"
 * DispOLED_SPI4: comunicação "4wire SPI"
 
 Configuração dos displays com 6 ou 7 pinos:

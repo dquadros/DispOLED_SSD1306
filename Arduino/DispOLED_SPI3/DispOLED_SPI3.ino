@@ -192,7 +192,7 @@ void SPI9_transfer(int dado)
   int mask = 0x100;
   for (int i = 0; i < 9; i++)
   {
-    digitalWrite(pinMOSI, (dado & mask) ? LOW : HIGH);
+    digitalWrite(pinMOSI, (dado & mask) ? HIGH : LOW);
     digitalWrite(pinSCK, HIGH);
     digitalWrite(pinSCK, LOW);    
     mask = mask >> 1;
