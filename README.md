@@ -7,6 +7,10 @@ Arduino
 * DispOLED_SPI3: comunicação "3wire SPI"
 * DispOLED_SPI4: comunicação "4wire SPI"
 
+Raspberry
+
+* DispOLED_I2C: comunicação I2C
+
 Configuração dos displays com 6 ou 7 pinos:
 * 4wire SPI: padrão: resistor em R3 e R4. R1, R2 e R8 vazios
 * 3wire SPI: resistor em R2 e R4. R1, R3 e R8 vazios
